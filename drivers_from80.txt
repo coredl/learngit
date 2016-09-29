@@ -1,0 +1,92 @@
+$ db list *drivers* used
+
+/7xx/dcDcDrivers:0/drivers       S    char 
+                                         dcdcAdc:0 dcdcAdc:1 dcdcAdc:2 dc5_1VU dcLdoVccU dc3_3VU dc1_8VU dc1_35VU dcXenonVcsU dcXenonVddU dcRetVccI dcRetVccIR dcN48VU dcN48VI dcAntVccU dcFanVccU dcBiasAU rBiasAU dcBiasAI rBiasAI dcBiasBU rBiasBU dcBiasBI rBiasBI dcRxAdcVcc:0.0 dcRxAdcVcc:0.1 dcdcAdcTemp:0 dcdcAdcTemp:1 dcdcAdcTemp:2 dcdcPot:0 dcAntVcc dcdcPot:1 dcXenonVdd
+                                         
+/7xx/DpaVddCompCtrl:0/drivers    S    char 
+                                         DpaVddComp:0
+                                         
+/700/rxDrivers/drivers           S    char 
+                                         rxControlCircuitDev:0 rxLnaTemp:0 rxRfVga:0 rxRfVga:1 rxRfGain:0 rxRfGain:1 rxAdc:0 rxIfGain:0 rxIfGain:1 lna1Voltage:0.0 lna1Voltage:1.0 lna2Voltage:0.0 lna2Voltage:0.1 lna2Voltage:1.0 lna2Voltage:1.1 rxRfLo:0 ngr2Fu 
+                                         
+/7xx/aiDrivers/drivers           S    char 
+                                         aiReceiver antModem antModemPinmux
+                                         
+/7xx/ngr2Fu/drivers              S    char 
+                                         
+                                         
+/7xx/paOnSv:1/drivers            S    char 
+                                         IDpaSv:1.0 IDpaSv:1.1 IDpaSv:1.2 IDpaSv:1.3 IMpaSv:1.0 IMpaSv:1.1 IMpaSv:1.2 
+                                         
+/7xx/raSwComponents/drivers      S    char 
+                                         ulDelayAdjust halDataConfig
+                                         
+/7xx/paOnSv:0/drivers            S    char 
+                                         IDpaSv:0.0 IDpaSv:0.1 IDpaSv:0.2 IDpaSv:0.3 IMpaSv:0.0 IMpaSv:0.1 IMpaSv:0.2 
+                                         
+/pa/drivers/set702               S    char 
+                                         paDataBase:0 txDrivers:0 txDrivers:1 paDriverStarter paSvStarter paOnSv:0  paOnSv:1 tpaDcDcPot:0 dcDpaVdd:0 tpaDcDcPot:1 dcMpa:0 tpaDcDcPot:2 dcMpa:1 VddLimitCtrl:0  VddLimitCtrl:1 DpaVddLimitCtrl:0 VddCompCtrl:0 VddCompCtrl:1 DpaVddCompCtrl:0 SelfTest:0 
+                                         
+/7xx/VddCompCtrl:1/drivers       S    char 
+                                         VddComp:1
+                                         
+/7xx/pa702/txDrivers:1/drivers   S    char 
+                                         txLowLevel:1 txGain:1 txAttenuation:1 
+                                         
+/7xx/VddCompCtrl:0/drivers       S    char 
+                                         VddComp:0
+                                         
+/7xx/pa702/txDrivers:0/drivers   S    char 
+                                         tpaIoFpgaLoadDev:0 tpaIoFpgaComDev:0 tpaIoFpga:0 tpaIoFpgaIntProc:0 tpaSpiMaster:0 tpaSpiMaster:1 tpaGpio:0 torLo:0 torLoEn:0 torLoEventLogIdReg:0 torLoEventLogAmpl:0 torLoEventLogTemp:0 torLoEventLogVtune:0 torLoEventLogCore:0 torLoEventLogVcof:0 torDevice:0 torAdc:0 txLowLevel:0 txLo_Sv:0 txGain:0 txAttenuation:0 txIqDac:0 srlCounter:0 dpdXenon:0 
+                                         
+$ db list *Drivers* used
+
+/hw/ltuiServer/ltuDrivers        S    char 
+                                         ltu491 ltu
+                                         
+/7xx/pa702/txDrivers:x/type      S    char 
+                                         TxXenon
+                                         
+/board/paDrivers/set             SP   char 
+                                         702
+                                         
+/7xx/dcDcDrivers:0/drivers       S    char 
+                                         dcdcAdc:0 dcdcAdc:1 dcdcAdc:2 dc5_1VU dcLdoVccU dc3_3VU dc1_8VU dc1_35VU dcXenonVcsU dcXenonVddU dcRetVccI dcRetVccIR dcN48VU dcN48VI dcAntVccU dcFanVccU dcBiasAU rBiasAU dcBiasAI rBiasAI dcBiasBU rBiasBU dcBiasBI rBiasBI dcRxAdcVcc:0.0 dcRxAdcVcc:0.1 dcdcAdcTemp:0 dcdcAdcTemp:1 dcdcAdcTemp:2 dcdcPot:0 dcAntVcc dcdcPot:1 dcXenonVdd
+                                         
+/7xx/aiDrivers/type              S    char 
+                                         DriverContainer
+                                         
+/7xx/pa702/latestDrivers         S    char 
+                                         powerDrop:0 resourceAdapterMapperNGR2 swJesd204b 
+                                         
+/7xx/rxDrivers/type              S    char 
+                                         DriverContainer
+                                         
+/7xx/dcDcDrivers:0/type          S    char 
+                                         DriverContainer
+                                         
+/700/rxDrivers/drivers           S    char 
+                                         rxControlCircuitDev:0 rxLnaTemp:0 rxRfVga:0 rxRfVga:1 rxRfGain:0 rxRfGain:1 rxAdc:0 rxIfGain:0 rxIfGain:1 lna1Voltage:0.0 lna1Voltage:1.0 lna2Voltage:0.0 lna2Voltage:0.1 lna2Voltage:1.0 lna2Voltage:1.1 rxRfLo:0 ngr2Fu 
+                                         
+/7xx/aiDrivers/drivers           S    char 
+                                         aiReceiver antModem antModemPinmux
+                                         
+/7xx/pa702/txDrivers:1/drivers   S    char 
+                                         txLowLevel:1 txGain:1 txAttenuation:1 
+                                         
+/70x/trxDrivers                  S    char 
+                                         xenon:0 xenonPinmux:0 xenonGpio:0 xenonRxMcbInitConfig xenonTxMcbInitConfig xenonEvcPulseConfig xenonEvcGpio:0 xenonSpiMasterInterrupt:0 xenonSpiMasterInterrupt:1 xenonSpiMasterInterrupt:2 xenonSpiMasterInterrupt:3 xenonSpiMasterInterrupt:4 xenonSpiMasterInterrupt:5 xenonSpiMaster:0 xenonSpiMaster:1 xenonSpiMaster:2 xenonSpiMaster:3 xenonSpiMaster:4 xenonSpiMaster:5 xenonFSpiMaster:1 xenonFSpiMaster:3 rtsInterrupt0 rtsInterrupt1 rtsInterrupt2 rtsInterrupt3 rtsInterrupt4 bfnInterrupt xenonBfnInterruptHandler xenonPaCtrlInterrupt:0 ltu ltuPllSv xenonTempSensor:0 draTemperature:0 dcDcDrivers:0 dpLoad:0 dpLoad:8 ltuiServer linkCtrlCpri link xenonSerdes:0 xenonSerdes:3 rxDrivers aiDrivers xruBrA_ngr2 xruBrB_ngr2 xruBrRET0_ngr2 raSwComponents 
+                                         
+/7xx/pa702/txDrivers:0/drivers   S    char 
+                                         tpaIoFpgaLoadDev:0 tpaIoFpgaComDev:0 tpaIoFpga:0 tpaIoFpgaIntProc:0 tpaSpiMaster:0 tpaSpiMaster:1 tpaGpio:0 torLo:0 torLoEn:0 torLoEventLogIdReg:0 torLoEventLogAmpl:0 torLoEventLogTemp:0 torLoEventLogVtune:0 torLoEventLogCore:0 torLoEventLogVcof:0 torDevice:0 torAdc:0 txLowLevel:0 txLo_Sv:0 txGain:0 txAttenuation:0 txIqDac:0 srlCounter:0 dpdXenon:0 
+                                         
+/7xx/pa702/txDrivers:1/drvName   S    char 
+                                         tx:B
+                                         
+/7xx/pa702/txDrivers:0/drvName   S    char 
+                                         tx:A
+                                         
+/board/trxDrivers/set            SP   char 
+                                         700
+                                         
+$ 
